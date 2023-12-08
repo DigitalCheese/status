@@ -6,10 +6,8 @@ body {background-color:#333;color:white;font-size:13px;font-family:Arial, Helvet
 .status {background:black;padding:4px;margin:auto;border:2px red solid}
 
 /* Footer */
-.footer {background:#000;color:white;font-size:14px;padding:2px;max-width:100%;margin:0 auto;display:flex}
-.foot1 {flex:1;float:left}
-.foot2 {flex:2;float:left}
-.foot3 {flex:3;float:left}
+.footer {background:#000;color:white;font-size:14px;padding:2px;max-width:100%;margin:0 auto;display:table-row}
+.foot1, .foot2, .foot3 {display:table}
 
 #LinkMenu button {background:black;color:white;font-weight:bold}
 .logo {flex:1;float:left;max-width:32px;max-height:32px}
