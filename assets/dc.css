@@ -6,7 +6,7 @@ body {background-color:#333;color:white;font-size:13px;font-family:Arial, Helvet
 .status {background:black;padding:4px;margin:auto;border:2px red solid}
 
 /* Footer */
-.footer {background:#000;color:white;font-size:14px;padding:2px;max-width:100%;margin:0 auto;display:table-row}
+.footer {background:#000;color:white;font-size:14px;padding:2px;width:100%!important;margin:0 auto;display:table-row}
 .foot1, .foot2, .foot3 {display:table}
 
 #LinkMenu button {background:black;color:white;font-weight:bold}
