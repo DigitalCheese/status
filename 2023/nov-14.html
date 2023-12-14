@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta property="og:site_name" content="Digital Cheese's Status Updates">
+        <meta property="og:title" content="Nov 14th 2023 - MAJOR Site Decisions + Arch Linux Progress">
+        <meta property="og:description" content="I actually have things setup on Arch Linux now so I can actually say things are going well there. Network works now, I can install stuff, etc. I'm still trying to figure everything out of course, also trying to get a desktop-environment setup soon. Once I get that, I'm definitely becoming an Arch main. I occasionally switch back to Windows since I have things dual-booted on my laptop, but the plan is to delete Windows 10 one day or at least make Arch work on my main hard-drive and not just swap to it when I feel like it via an alternative USB.">
+        <meta property="og:image" content="https://status.digitalcheese.xyz/assets/dc.jpg">
+        <meta property="og:image:alt" content="Digital Cheese Profile Picture">
+        <meta property="og:url" content="https://status.digitalcheese.xyz/2023/nov-14.html">
+        <meta property="og:card" content="summary">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Digital Cheese">
+        <meta name="description" content="I actually have things setup on Arch Linux now so I can actually say things are going well there. Network works now, I can install stuff, etc. I'm still trying to figure everything out of course, also trying to get a desktop-environment setup soon. Once I get that, I'm definitely becoming an Arch main. I occasionally switch back to Windows since I have things dual-booted on my laptop, but the plan is to delete Windows 10 one day or at least make Arch work on my main hard-drive and not just swap to it when I feel like it via an alternative USB.">
+        <meta name="keywords" content="Digital Cheese, Analog Cheese, Venith">
+        <link rel="shortcut icon" href="/assets/dc.ico">
+        <link rel="stylesheet" href="/assets/dc.css">
+        <script src="/assets/dc.js"></script>
+        <title>Nov 14th 2023 - MAJOR Site Decisions + Arch Linux Progress</title>
+        <!-- Other Metadata -->
+        <meta property="twitter:creator" content="@DigitalCheeseYT">
+        <meta property="twitter:site" content="@DigitalCheeseYT">
+    </head>
+    <body>
+        <div class="container">
+            <div id="LinkMenu">
+                <button onclick="document.getElementById('LinkMenu').style.display = 'none'">EXIT Menu</button>
+                <ul><li><a href="https://digitalcheese.xyz/">Homepage</a></li>
+                <li><a href="https://articles.digitalcheese.xyz/">Articles</a></li>
+                <li><a href="https://status.digitalcheese.xyz/">Statuses</a></li>
+                <li><a href="https://archive.digitalcheese.xyz/">Archives</a></li>
+                <li><a href="https://videos.digitalcheese.xyz/">Videos</a></li>
+                <li><a href="https://music.digitalcheese.xyz/">Music</a></li>
+                <li><a href="https://projects.digitalcheese.xyz/">Projects</a></li></ul>
+                HTTPS is not required for all links, but highly recommended.
+            </div>
+            <div class="header">
+                <div class="logo"><a href="#"><img src="/assets/dc.jpg" alt="Logo" title="Clear # Links Via Click"></a></div>
+                <div class="usrnme"><a href=/index.html>Digital Cheese</a></div>
+                <div class="quick-menu"><a onclick="LinkMenu()"><img src="/assets/menu.png" alt="Links" title="Click For The Link Navigation" class="LINK-ICO"></a></div>
+            </div>
+            <div class="content"><h2>MAJOR Site Decisions + Arch Linux Progress</h2>
+                <h4>November 14th, 2023 at 11:41PM</h4>
+                I actually have things setup on Arch Linux now so I can actually say things are going well there. Network works now, I can install stuff, etc. I'm still trying to figure everything out of course, also trying to get a desktop-environment setup soon. Once I get that, I'm definitely becoming an Arch main. I occasionally switch back to Windows since I have things dual-booted on my laptop, but the plan is to delete Windows 10 one day or at least make Arch work on my main hard-drive and not just swap to it when I feel like it via an alternative USB.
+                <br><br>
+                On some other notes, I've been thinking about how I'll organize everything in regards to videos, archives, etc. I'm trying to make it as easy as possible to find everything for both myself and everyone finding videos. I'm also going to split up where everything is hosted as to make taking things down harder due to the more controversial nature of the Digital Cheese name. Below though, I'll show how I am sorting all the domains out:
+                <br><br>
+                - archive.example.com/type/id.html - Type is for the website (such as SDKCommunity), ID is for the original post ID/title.<br>
+                - articles.example.com/type/title.html - Type is for article type such as tech articles, title is just the title.<br>
+                - status.example.com/YYYY/MMDD.html - Sorted by year for reasonability, MM/DD sorting afterwards to find things easily. Might do month as title, day as number tho to look less weird. Idk yet.<br>
+                - videos.example.com/YYYY/title.html - Sorted by year bc yes, it will either be title or ID from there.<br>
+                - music.example.com/category/id.html - Category is either misc songs (ungrouped) or other stuff, ID is what track number it is.<br>
+                - projects.example.com/project.html - Simply a page with project links + a page per project explaining what i am doing or have done in said project. Also contains inactive/finished ones.<br>
+                - notes.example.com/subject/type/title.html - Subject such as English, then type such as a specific thing, then title for even more specific pages.
+                <br><br>
+                That is just whats currently planned not including the homepage. Also, all pages will start having # links being used to make it more like a wiki-page instead of using it like I do right now for reducing the number of pages needed for statuses, articles, etc while still being linkable to other people outside of the original page itself. Basically on articles, you'll be able to link to headers of the page, same for the archives. Hell, I may also start archiving comments created by certain users on the archived content if they were particularly note-worthy to the discussion.
+                <br><br>
+                In the case of archived comments, they will be linkable and you'll be able to tell they were linked, however you will not be able to link individual headers in said comment if that comment happens to be that long. The return of the old archive system in an improved way will also mean that we'll be able to have custom CSS for everything again. Forums will have custom CSS, Paint blogs will have their custom CSS, etc. I'll also be able to add editors notes years after the blog and I'll blend it end as to prevent it from looking weird. Archives are way easier when you actually know what you're doing.
+                <br><br>
+                Archives will not be hosted on Neocities because I want them to work on DSi and I'll easily exceed the 500 file limit. However, I will begin making a version of the site on GitHub that will be experimental only. This GitHub version that won't be available will be the final site, except I'll either not give it a venith.net sub-domain or it wont last long (such as archive.dc.venith.net). Once I get my new planned domain though, I'll absolutely make the archives public, and goddamn I'll be excited.
+                <br><br>
+                I've been planning this out for months at this point, and I think we're about to reach the point of perfection. The system will probably be the best you've seen it in years, and damn its gonna be glorious to watch. If I one day self-host which would give me PHP abilities, then yea we're set forever, but I can't self-host as of now and no other (free or cheap) options give PHP as an option. Maybe the NearlyFreeSpeech host does, and I've seen its damn cheap so I'll consider it if it allows PHP, but the only way I'll leave entirely from Neocities is if I get to self-host.
+                <br><br>
+                Even then, my profile will remain, it will simply become inactive and I'll setup a shit-ton of redirects to other pages on this site (imagine basically every single dc-blog.neocities.org page to ever exist, that's how far we're talking here). dc-blog links will all redirect on Neocities when that time comes, however dc.venith.net will probably not host its redirects on Neocities because it is my own domain after-all so I don't have to do that.
+                <br><br>
+                I know old dc-blog links you probably can't even find are pretty much worthless now, but I'd love to have that much damn convenience for the 3 people who come across my old site as long as I physically can. Plus a bunch of JS redirects with a gay-little homepage and not-found that says I've moved isn't that hard anyways. As of now, I still don't have a big reason to leave Neocities due to what it provides for only $5 monthly.
+                <br><br>
+                However I am not opposed to PHP support. Now if Neocities went as far as adding PHP support to the service for like $20 monthly (and gave u a bit more bandwidth with like 200GB of storage), then yea I'd definitely never leave. I do have one complaint other than no-backend (which I can't do anyways, idk backend) that being the 500 file-limit, it makes sense but it seems unnecessary and people often just ignore it then wonder why they can't download their site or hot-link everything which causes other issues.
+                <br><br>
+                Neocities is nice though as I've said, I like it lol. Also I am hoping to get 500 blogs pre-2024 but I'm not 100% sure anymore if that will happen. I can guarantee that I'll get 500 blogs before 3 years on 3DSPaint though, plus the new system will make things generally more easy to manage and that means less waiting on trivial shit like porting a few damn blogs with 3 lines that are barely even blogs and more so just shitposts. I don't have much else to say, so thanks for reading everyone. New changes soon once I get that damn domain.
+            <div class="footer">2021-2023 <a href="https://digitalcheese.xyz/">Digital Cheese</a>, all rights reserved. If you would like to use any content on this website, please link to the original source assuming it still exists. If it was removed, please link to just the website homepage. Thank you for visiting this webpage!
+                <br><br>
+                <a href="/rss.xml">Statuses RSS</a>
+            </div>
+        </div>
+    </body>
+</html>
